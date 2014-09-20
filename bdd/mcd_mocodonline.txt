@@ -1,0 +1,10 @@
+BIEN: bien_id, type, description
+LOCALISATION, 11 BIEN, 1N ADRESSE 
+ADRESSE: adresse_id, numéro, rue, info, ville, code_postal, commentaire, complément
+
+LOCATION, 0N BIEN, 0N PERSONNE
+PROPRIETE, 1N BIEN, 1N PERSONNE
+INTERVENTION, 1N BIEN, 1N PERSONNE: motif, date_echeance, date_rdv, etat_avancement, commentaire
+
+PERSONNE: personne_id, nom, prénom
+
