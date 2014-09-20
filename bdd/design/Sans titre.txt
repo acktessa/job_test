@@ -1,0 +1,6 @@
+BIEN (_bien_id_, type, description, #adresse_id)
+ADRESSE (_adresse_id_, numéro, rue, info, ville, code_postal, commentaire, complément)
+LOCATION (_#bien_id_, _#personne_id_)
+PROPRIETE (_#bien_id_, _#personne_id_)
+INTERVENTION (_#bien_id_, _#personne_id_, motif, date_echeance, date_rdv, etat_avancement, commentaire)
+PERSONNE (_personne_id_, nom, prénom)
